@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: Study_Helper_Back_end_production
-  username: Study_Helper_Back_end
-  password: <%= ENV["STUDY_HELPER_BACK_END_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
