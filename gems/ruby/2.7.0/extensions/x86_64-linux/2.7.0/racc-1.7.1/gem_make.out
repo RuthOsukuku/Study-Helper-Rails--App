@@ -1,0 +1,17 @@
+current directory: /home/ruth/Phase-group9/Study_Helper_Back_end_Api/gems/ruby/2.7.0/gems/racc-1.7.1/ext/racc/cparse
+/home/ruth/.rbenv/versions/2.7.4/bin/ruby -I /home/ruth/.rbenv/versions/2.7.4/lib/ruby/2.7.0 -r ./siteconf20230911-145218-19conwv.rb extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /home/ruth/Phase-group9/Study_Helper_Back_end_Api/gems/ruby/2.7.0/gems/racc-1.7.1/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /home/ruth/Phase-group9/Study_Helper_Back_end_Api/gems/ruby/2.7.0/gems/racc-1.7.1/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/ruth/Phase-group9/Study_Helper_Back_end_Api/gems/ruby/2.7.0/gems/racc-1.7.1/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20230911-145218-1msbwrz/racc
